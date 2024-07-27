@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto E.L.L.A.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Proyecto E.L.L.A.</h1>
+        <img src="objetos/logo.png" alt="Logo Proyecto E.L.L.A.">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre Nosotros</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#probar-demo">Probar Demo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Proyecto E.L.L.A es una novela interactiva en la cual tendrás que cuidar a una chica llamada Elara, quien es tu novia y sufre de una grave enfermedad que podría acabar con su vida muy pronto. Como su novio, te encargarás de cuidarla, hacerla feliz y sobrellevar las cosas juntos.</p>
+            <p>Elara necesita de tu apoyo constante, y podrás interactuar con ella de múltiples maneras para mejorar su bienestar. El juego ofrece una experiencia inmersiva donde cada decisión cuenta y afecta el desarrollo de la historia.</p>
+            <p>A medida que avanza el juego, descubrirás más sobre la historia de Elara, sus sueños, miedos y esperanzas. Cada acción que tomes influirá en su salud y felicidad, creando una experiencia emocionalmente profunda y única.</p>
+        </section>
+        <section id="sobre">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un equipo independiente que no rebosa de una gran cantidad de recursos, así que les pedimos disculpas en caso de encontrar errores en el juego.</p>
+            <p>SACAME DE AQUI es nuestro acrónimo, que significa: S (Somos), A (Apasionados), C (Creadores), A (Atentos), M (Motivados), E (Entusiastas), D (Desarrolladores), E (Experiencias), A (Alternativas), Q (Queremos), U (Unirnos), I (Innovar).</p>
+        </section>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div>
+                <img src="objetos/pantalla-principal.png" alt="Pantalla Principal" class="miniatura" data-descripcion="La pantalla principal del juego, donde comienzas tu viaje con Elara.">
+                <img src="objetos/Cita.png" alt="Cita" class="miniatura" data-descripcion="Una cita romántica con Elara en el parque, donde compartís un momento especial.">
+                <img src="objetos/Personaje.png" alt="Personaje" id="personaje" class="miniatura" data-descripcion="Elara, tu novia en el juego. Haz click para un mensaje especial.">
+            </div>
+            <div id="descripcion-imagen"></div>
+        </section>
+        <section id="probar-demo">
+            <h2>Probar Demo</h2>
+            <img src="objetos/Descargar.png" alt="Descargar Demo" id="descargar-demo">
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>No disponible por el momento.</p>
+            <p class="error">Error 404: .-.. .- / .. -. . / ... .- .-. .- / ... ..- / -. --- ...- .. .- -.. --- ... / -.-. --- -. - .- -.-. - --- ...</p>
+        </section>
+    </main>
+    <div id="overlay" class="overlay">
+        <img id="overlay-img" src="" alt="Imagen ampliada">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
